@@ -83,3 +83,48 @@
 footer {
   border-top: 1px solid #e2e6ec;
 }
+
+.hero-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "text"
+        "image"
+        "buttons";
+    gap: 20px;
+}
+
+.hero-text {
+    grid-area: text;
+}
+
+.hero-image {
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-buttons {
+    grid-area: buttons;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+    .hero-layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "text image"
+            "buttons image";
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+}
