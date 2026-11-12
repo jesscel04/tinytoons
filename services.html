@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TinyToons</title>
+    <title>TinyToons - Services</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="icon" type="image/x-icon" href="img/logo.png">
-
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
 
-<nav class="navbar">
-    <a href="index.html" class="logo">TinyToons</a>
+    <nav class="navbar">
+        <a href="index.html" class="logo">TinyToons</a>
 
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="#" class="active">Services</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contactus.html">Contact Us</a></li>
-    </ul>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
 
-    <div class="nav-icons">
+        <div class="nav-icons">
             <a href="cart.html" aria-label="Shopping cart">
                 <img src="img/Shopping Cart.png" alt="Cart">
             </a>
@@ -31,12 +31,92 @@
                 <img src="img/Test Account.png" alt="Profile">
             </a>
         </div>
-</nav>
+    </nav>
 
+    <main class="services-page">
 
-</body>
+        <section class="services-hero">
+            <div class="hero-heading">
+                <p>Make Your Own</p>
+                <h1>Figurine!</h1>
+            </div>
 
-<footer class="text-gray-600">
+            <div class="hero-description">
+                <p>
+                    Bring your favorite characters and memories to life!
+                    Create personalized figurines designed just for you.
+                </p>
+                <a href="products.html" class="customize-btn">Customize Now!</a>
+            </div>
+
+            <div class="hero-picture">
+                <img src="img/custom.jpg" alt="Custom figurine">
+            </div>
+        </section>
+
+        <section class="customization-section">
+            <h2>What Can You Customize?</h2>
+
+            <div class="customization-grid">
+
+                <div class="custom-card">
+                    <img src="products/couple-figurine.png" alt="Couple Figurines">
+                    <h3 class="font-bold">Couple Figurines</h3>
+                    <p>Personalized couple miniature</p>
+                </div>
+
+                <div class="custom-card">
+                    <img src="products/personal-figurine.png" alt="Personal Figurines">
+                    <h3 class="font-bold">Personal Figurines</h3>
+                    <p>Personalized people miniature</p>
+                </div>
+
+                <div class="custom-card">
+                    <img src="products/pet-figurine.png" alt="Pet Figurines">
+                    <h3 class="font-bold">Pet Figurines</h3>
+                    <p>Personalized pet miniature</p>
+                </div>
+
+                <div class="custom-card">
+                    <img src="products/family-figurine.png" alt="Family Figurines">
+                    <h3 class="font-bold">Family Figurines</h3>
+                    <p>Personalized family miniature</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="why-choose-section">
+            <h2>Why Choose TinyToons?</h2>
+
+            <div class="benefits-grid">
+
+                <div class="benefit">
+                    <img src="img/Jewel.png" alt="Jewel icon">
+                    <p>High-Quality<br>Craftsmanship</p>
+                </div>
+
+                <div class="benefit">
+                    <img src="img/Gift.png" alt="Gift icon">
+                    <p>Fully Customizable<br>Designs</p>
+                </div>
+
+                <div class="benefit">
+                    <img src="img/Security Shield.png" alt="Shield icon">
+                    <p>Safe &amp; Durable<br>Materials</p>
+                </div>
+
+                <div class="benefit">
+                    <img src="img/Heart.png" alt="Heart icon">
+                    <p>A Thoughtful<br>Gift Idea</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-gray-600">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <a href="index.html" class="logo">TinyToons</a>
 
@@ -44,35 +124,32 @@
                 © 2026 TinyToons
             </p>
 
-            <div class="flex gap-3 sm:ml-auto mt-4 sm:mt-0 text-gray-500">
+            <div class="flex items-center gap-3 sm:ml-auto mt-4 sm:mt-0 text-gray-500">
 
-                <a href="https://www.facebook.com/profile.php?id=61596061757479" target="_blank" aria-label="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61596061757479" target="_blank" rel="noopener" aria-label="Facebook">
                     <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                     </svg>
                 </a>
 
-                <a href="#" target="_blank" aria-label="Twitter">
-                    <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                    </svg>
+                <a href="https://www.youtube.com/@tinytoons2026mj" target="_blank" rel="noopener" aria-label="YouTube">
+                    <img src="img/youtube-logo.png" alt="" class="w-5 h-5 grayscale opacity-55">
                 </a>
 
-                <a href="#" target="_blank" aria-label="Instagram">
+                <a href="https://www.instagram.com/tinytoons2026mj/" target="_blank" rel="noopener" aria-label="Instagram">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                         <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                         <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                     </svg>
                 </a>
 
-                <a href="#" target="_blank" aria-label="LinkedIn">
-                    <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
-                        <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                        <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
+                <a href="https://www.tiktok.com/@mjtinytoons2026" target="_blank" rel="noopener" aria-label="TikTok">
+                    <img src="img/tik-tok.png" alt="" class="w-4 h-4 grayscale opacity-55">
                 </a>
 
             </div>
         </div>
-    </footer>
+</footer>
+
+</body>
 </html>
