@@ -3,7 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyToons</title><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TinyToons</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">TinyToons</a>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <a href="cart.html" aria-label="Shopping cart">
+                <img src="img/Shopping Cart.png" alt="Cart">
+            </a>
+            <a href="profile.html" aria-label="User profile">
+                <img src="img/Test Account.png" alt="Profile">
+            </a>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="container px-5 py-10 mx-auto text-gray-600">
+            <div class="lg:w-4/5 mx-auto hero-layout">
+
+                <div class="hero-text">
+                    <h1 class="text-gray-900 text-3xl font-medium mb-4">TinyToons</h1>
+                    <p class="leading-relaxed mb-4">
+                        TinyToons is your one-stop shop for all things fun, cute, and collectible!
+                        Explore a wide variety of anime and cartoon figurines, merchandise, accessories,
+                        and other collectibles inspired by your favorite characters and series. Whether
+                        you're a passionate collector or simply looking for something adorable to add to
+                        your collection, TinyToons brings your favorite fictional worlds a little closer to you!
+                    </p>
+                </div>
+
+                <img src="img/logo-no bg.png" alt="TinyToons logo" class="hero-image rounded">
+
+                <div class="hero-buttons">
+                    <a href="aboutus.html" class="text-white bg-[#1d3557] py-2 px-6 hover:bg-indigo-600 rounded">
+                        Learn more
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-12 mx-auto max-w-screen-xl px-4">
+            <h2 class="text-gray-900 text-3xl font-medium mb-4">Popular Products</h2>
+
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+                <!-- hange funko -->
+                <div class="rounded-lg border bg-white p-6 shadow-sm">
+                    <img src="products/hange zoe funko.jpg" alt="Hange Zoe Funko Pop" class="h-64 w-full object-contain">
+                    <h3 class="mt-4 text-lg font-semibold">Funko Pop - Hange Zoe Attack on Titan</h3>
+                    <p class="mt-2 text-yellow-400">⭐⭐⭐⭐⭐ <span class="text-gray-700">5.0 (455)</span></p>
+                    <p class="mt-2 text-sm text-gray-500">Fast Delivery | Best Price</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        <p class="text-2xl font-bold">₱1,100</p>
+                        <button class="rounded-lg bg-[#1d3557] px-5 py-2 text-white">Add to cart</button>
+                    </div>
+                </div>
+
+                <!-- nanami funko -->
+                <div class="rounded-lg border bg-white p-6 shadow-sm">
+                    <img src="products/nanami funko.jpg" alt="Nanami Kento Funko Pop" class="h-64 w-full object-contain">
+                    <h3 class="mt-4 text-lg font-semibold">Funko Pop - Nanami Kento Jujutsu Kaisen</h3>
+                    <p class="mt-2 text-yellow-400">⭐⭐⭐⭐⭐ <span class="text-gray-700">5.0 (2.0k)</span></p>
+                    <p class="mt-2 text-sm text-gray-500">Fast Delivery | Best Price</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        <p class="text-2xl font-bold">₱1,100</p>
+                        <button class="rounded-lg bg-[#1d3557] px-5 py-2 text-white">Add to cart</button>
+                    </div>
+                </div>
+
+                <!-- ua hoodie -->
+                <div class="rounded-lg border bg-white p-6 shadow-sm">
+                    <img src="products/ua jacket.jpg" alt="My Hero Academia UA Hoodie" class="h-64 w-full object-contain">
+                    <h3 class="mt-4 text-lg font-semibold">My Hero Academia UA Hoodie</h3>
+                    <p class="mt-2 text-yellow-400">⭐⭐⭐⭐⭐ <span class="text-gray-700">5.0 (605)</span></p>
+                    <p class="mt-2 text-sm text-gray-500">Fast Delivery | Best Price</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        <p class="text-2xl font-bold">₱899</p>
+                        <button class="rounded-lg bg-[#1d3557] px-5 py-2 text-white">Add to cart</button>
+                    </div>
+                </div>
+
+                <!-- gojo fig -->
+                <div class="rounded-lg border bg-white p-6 shadow-sm">
+                    <img src="products/gojo figure.jpg" alt="Gojo Satoru Figure" class="h-64 w-full object-contain">
+                    <h3 class="mt-4 text-lg font-semibold">Gojo Satoru Figure Jujutsu Kaisen</h3>
+                    <p class="mt-2 text-yellow-400">⭐⭐⭐⭐⭐ <span class="text-gray-700">5.0 (5k)</span></p>
+                    <p class="mt-2 text-sm text-gray-500">Fast Delivery | Best Price</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        <p class="text-2xl font-bold">₱1,149</p>
+                        <button class="rounded-lg bg-[#1d3557] px-5 py-2 text-white">Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex justify-center mt-10">
+                <a href="products.html" class="text-white bg-[#1d3557] py-2 px-6 hover:bg-indigo-600 rounded">
+                    View More
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-gray-600">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a href="index.html" class="logo">TinyToons</a>
+
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 mt-4 sm:mt-0">
+                © 2026 TinyToons
+            </p>
+
+            <div class="flex items-center gap-3 sm:ml-auto mt-4 sm:mt-0 text-gray-500">
+
+                <a href="https://www.facebook.com/profile.php?id=61596061757479" target="_blank" rel="noopener" aria-label="Facebook">
+                    <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+
+                <a href="https://www.youtube.com/@tinytoons2026mj" target="_blank" rel="noopener" aria-label="YouTube">
+                    <img src="img/youtube-logo.png" alt="" class="w-5 h-5 grayscale opacity-55">
+                </a>
+
+                <a href="https://www.instagram.com/tinytoons2026mj/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+
+                <a href="https://www.tiktok.com/@mjtinytoons2026" target="_blank" rel="noopener" aria-label="TikTok">
+                    <img src="img/tik-tok.png" alt="" class="w-4 h-4 grayscale opacity-55">
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/logo.png">
